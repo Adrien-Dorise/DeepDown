@@ -9,7 +9,6 @@ public class wizard : baseCharacter
     //Spé2 is resurection
 
     //Wizard class
-    private float baseSpeed;
     [SerializeField] private float spellMovingSpeed;
     [SerializeField] private bool stillAttacking;
     private int HPhealed;

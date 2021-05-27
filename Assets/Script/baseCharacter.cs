@@ -238,6 +238,11 @@ public class baseCharacter : MonoBehaviour
         return MAXHP;
     }
 
+    public int getHP()
+    {
+        return HP;
+    }
+
     public void getHeal(int HPrecovered)
     {
         isHealing = true;
