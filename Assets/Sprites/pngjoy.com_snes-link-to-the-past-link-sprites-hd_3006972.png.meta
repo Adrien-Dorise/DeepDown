@@ -1,0 +1,2888 @@
+fileFormatVersion: 2
+guid: b7cfb4e18cbfea5459c8ee90b9e3f8f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 818494347077620902
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_0
+  - first:
+      213: -3284174324219140711
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_1
+  - first:
+      213: -8969827680716533294
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_2
+  - first:
+      213: -4340190313795057835
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_3
+  - first:
+      213: -5469091825379547024
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_4
+  - first:
+      213: -1048359182054533289
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_5
+  - first:
+      213: 1268005227282713079
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_6
+  - first:
+      213: -805537855617355747
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_7
+  - first:
+      213: 7462248450702069131
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_8
+  - first:
+      213: 5012325142956567235
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_9
+  - first:
+      213: -4833967980751970080
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_10
+  - first:
+      213: 3412343771369750063
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_11
+  - first:
+      213: -2483695773865461386
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_12
+  - first:
+      213: -100903323796078622
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_13
+  - first:
+      213: -2961890299187589298
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_14
+  - first:
+      213: -3636392702466224078
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_15
+  - first:
+      213: 4265753927312146298
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_16
+  - first:
+      213: 3849982044293545027
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_17
+  - first:
+      213: 1402306937540766011
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_18
+  - first:
+      213: 3457444050983283115
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_19
+  - first:
+      213: -4341218303302643597
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_20
+  - first:
+      213: -1372672135278603124
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_21
+  - first:
+      213: 2194077817046468445
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_22
+  - first:
+      213: -780272233481816549
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_23
+  - first:
+      213: 595159230006546174
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_24
+  - first:
+      213: -4396499617770309208
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_25
+  - first:
+      213: 4539712973981307182
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_26
+  - first:
+      213: -1412526123565854337
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_27
+  - first:
+      213: 7587283319536178182
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_28
+  - first:
+      213: -9171861443777934581
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_29
+  - first:
+      213: -6473729396703886695
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_30
+  - first:
+      213: -8899230743237808161
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_31
+  - first:
+      213: 7670141872788913490
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_32
+  - first:
+      213: -7346933789303664142
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_33
+  - first:
+      213: 7556784451210176976
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_34
+  - first:
+      213: 4447297911601954387
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_35
+  - first:
+      213: -325924395039874440
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_36
+  - first:
+      213: -3365315548853158930
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_37
+  - first:
+      213: -6976382152695815611
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_38
+  - first:
+      213: 2635493219512049839
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_39
+  - first:
+      213: -1827678165120638946
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_40
+  - first:
+      213: -2615569626587000280
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_41
+  - first:
+      213: -5815950983868969842
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_42
+  - first:
+      213: -5056713818711453959
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_43
+  - first:
+      213: 6527142579372740901
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_44
+  - first:
+      213: -7406793018669274771
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_45
+  - first:
+      213: 8400135873709419815
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_46
+  - first:
+      213: -661918958472817047
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_47
+  - first:
+      213: -6473572153767588328
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_48
+  - first:
+      213: -8673395861924331207
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_49
+  - first:
+      213: -4279912294596167174
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_50
+  - first:
+      213: 8343480127895103572
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_51
+  - first:
+      213: 6428418592484686300
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_52
+  - first:
+      213: 6168231270008031840
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_53
+  - first:
+      213: -528038829653125515
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_54
+  - first:
+      213: -8386099261951314369
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_55
+  - first:
+      213: 2314639230880814773
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_56
+  - first:
+      213: 8563857072143933296
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_57
+  - first:
+      213: -5399152134470993620
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_58
+  - first:
+      213: -7580113948759061296
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_59
+  - first:
+      213: 2011791838501346856
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_60
+  - first:
+      213: 4477961901789532455
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_61
+  - first:
+      213: 2017703474253760494
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_62
+  - first:
+      213: 5998352366692032388
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_63
+  - first:
+      213: 2662069070218231931
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_64
+  - first:
+      213: 356081502238942996
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_65
+  - first:
+      213: -4380339427696223899
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_66
+  - first:
+      213: -3398874777543891173
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_67
+  - first:
+      213: 5955608585587501846
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_68
+  - first:
+      213: 1838722203654695544
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_69
+  - first:
+      213: -2024526457770680759
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_70
+  - first:
+      213: -6694828802006129970
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_71
+  - first:
+      213: -7226438699918207297
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_72
+  - first:
+      213: -419321839078922686
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_73
+  - first:
+      213: -3255113374715357527
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_74
+  - first:
+      213: 5548191575283732247
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_75
+  - first:
+      213: -6170948159054822170
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_76
+  - first:
+      213: -6425482185662850233
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_77
+  - first:
+      213: -4205447606012888602
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_78
+  - first:
+      213: 3513298888565377026
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_79
+  - first:
+      213: 4073433915402160140
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_80
+  - first:
+      213: -7048698485814530148
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_81
+  - first:
+      213: -6580143908332092869
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_82
+  - first:
+      213: -1304261369674926137
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_83
+  - first:
+      213: 827115900609438434
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_84
+  - first:
+      213: 8023131435130907003
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_85
+  - first:
+      213: -4171043379007165829
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_86
+  - first:
+      213: 4792483836134317011
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_87
+  - first:
+      213: -8641223367865299465
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_88
+  - first:
+      213: -3288836636592198479
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_89
+  - first:
+      213: -1636883905146809579
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_90
+  - first:
+      213: -7772426173392380718
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_91
+  - first:
+      213: -7296668290334354115
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_92
+  - first:
+      213: 5109681497902709356
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_93
+  - first:
+      213: -7271620783140854348
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_94
+  - first:
+      213: 4756734468381075029
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_95
+  - first:
+      213: -7951801436809249195
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_96
+  - first:
+      213: 8010008384772624072
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_97
+  - first:
+      213: -6736977965249488181
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_98
+  - first:
+      213: -3628023231390155640
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_99
+  - first:
+      213: 6218352521034450679
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_100
+  - first:
+      213: 6388402556458297177
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_101
+  - first:
+      213: -7549556105022104460
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_102
+  - first:
+      213: 645841144687115903
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_103
+  - first:
+      213: 6109184011799306015
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_104
+  - first:
+      213: 8274917804311409434
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_105
+  - first:
+      213: 3802999062140067257
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_106
+  - first:
+      213: -2149172835168844569
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_107
+  - first:
+      213: -8431796616851951172
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_108
+  - first:
+      213: 6759451300239246885
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_109
+  - first:
+      213: -6544965191273813840
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_110
+  - first:
+      213: -7885723611667806630
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_111
+  - first:
+      213: -2282648431647179692
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_112
+  - first:
+      213: 4328065947969961704
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_113
+  - first:
+      213: -83471639670924955
+    second: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_114
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 22
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 276
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a41a38a540eb5b00800000000000000
+      internalID: 818494347077620902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 276
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995a5783ad44c62d0800000000000000
+      internalID: -3284174324219140711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 276
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1dc62af35c48380800000000000000
+      internalID: -8969827680716533294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 276
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55787a8a7eb84c3c0800000000000000
+      internalID: -4340190313795057835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_4
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 278
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078624816f1e914b0800000000000000
+      internalID: -5469091825379547024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_5
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 278
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757de9cd0ea7371f0800000000000000
+      internalID: -1048359182054533289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 246
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f94689390cd89110800000000000000
+      internalID: 1268005227282713079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 246
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d103cc6969722d4f0800000000000000
+      internalID: -805537855617355747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 246
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d4ec1ed6b3f8760800000000000000
+      internalID: 7462248450702069131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 245
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca6fac392b5f8540800000000000000
+      internalID: 5012325142956567235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_10
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 246
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0aaa3abbb4aecb0800000000000000
+      internalID: -4833967980751970080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 246
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2eb208a4941b5f20800000000000000
+      internalID: 3412343771369750063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_12
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 246
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6793c945ad3288dd0800000000000000
+      internalID: -2483695773865461386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_13
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 245
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef7a7c26f4899ef0800000000000000
+      internalID: -100903323796078622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 245
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f8f35377045e6d0800000000000000
+      internalID: -2961890299187589298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 245
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2309da18a10f88dc0800000000000000
+      internalID: -3636392702466224078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_16
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 246
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ffaa09890033b30800000000000000
+      internalID: 4265753927312146298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_17
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 246
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cbfbd6542ed6530800000000000000
+      internalID: 3849982044293545027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_18
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 245
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39ee2edabef57310800000000000000
+      internalID: 1402306937540766011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_19
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 245
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba965a9cb0f4bff20800000000000000
+      internalID: 3457444050983283115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_20
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 223
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370d83334f4e0c3c0800000000000000
+      internalID: -4341218303302643597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 215
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8454a737f943fce0800000000000000
+      internalID: -1372672135278603124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 217
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d578e9e562ee27e10800000000000000
+      internalID: 2194077817046468445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_23
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 216
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b163737a98aeb25f0800000000000000
+      internalID: -780272233481816549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 216
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efec5599a2e624800800000000000000
+      internalID: 595159230006546174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_25
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 217
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9f8ab24ee7cf2c0800000000000000
+      internalID: -4396499617770309208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 217
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21536cb5ec400f30800000000000000
+      internalID: 4539712973981307182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_27
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 216
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71d5e879f2b56ce0800000000000000
+      internalID: -1412526123565854337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_28
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 216
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604533fdaf17b4960800000000000000
+      internalID: 7587283319536178182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_29
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 216
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bc38a8c9007b080800000000000000
+      internalID: -9171861443777934581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_30
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 216
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9920679b961b826a0800000000000000
+      internalID: -6473729396703886695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_31
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 216
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf23170ac49f7480800000000000000
+      internalID: -8899230743237808161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_32
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 216
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dbe682561d17a60800000000000000
+      internalID: 7670141872788913490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 186
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f19d34f4a27a0a90800000000000000
+      internalID: -7346933789303664142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_34
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 185
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9e39abb671fd860800000000000000
+      internalID: 7556784451210176976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_35
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 182
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35efe5743e9f7bd30800000000000000
+      internalID: 4447297911601954387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_36
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 182
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872a3025d751a7bf0800000000000000
+      internalID: -325924395039874440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_37
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 183
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb3289a65ffb41d0800000000000000
+      internalID: -3365315548853158930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 184
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542e0330569ee2f90800000000000000
+      internalID: -6976382152695815611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_39
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 188
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa067f4ae17239420800000000000000
+      internalID: 2635493219512049839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_40
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 186
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e102f3c6468c2a6e0800000000000000
+      internalID: -1827678165120638946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_41
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 185
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8221bf15841a3bbd0800000000000000
+      internalID: -2615569626587000280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_42
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 187
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c0867f467994fa0800000000000000
+      internalID: -5815950983868969842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_43
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 187
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe05e0d291f2d9b0800000000000000
+      internalID: -5056713818711453959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_44
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 182
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521d6d9f791159a50800000000000000
+      internalID: 6527142579372740901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_45
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 186
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69ef5d0ef8c53990800000000000000
+      internalID: -7406793018669274771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_46
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 164
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d27714217439470800000000000000
+      internalID: 8400135873709419815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_47
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 156
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966912ad63460d6f0800000000000000
+      internalID: -661918958472817047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 155
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e82d2bc604926a0800000000000000
+      internalID: -6473572153767588328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_49
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 156
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93148adca68e1a780800000000000000
+      internalID: -8673395861924331207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_50
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 156
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9b4caa172ba94c0800000000000000
+      internalID: -4279912294596167174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_51
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 156
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458e7bd78fef9c370800000000000000
+      internalID: 8343480127895103572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_52
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 155
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9f09096a4563950800000000000000
+      internalID: 6428418592484686300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_53
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 156
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a094dc8a5f99550800000000000000
+      internalID: 6168231270008031840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_54
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 156
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57699ea6b770ca8f0800000000000000
+      internalID: -528038829653125515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_55
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 155
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36f93817279e9b80800000000000000
+      internalID: -8386099261951314369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_56
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 155
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b695d3fd104f1020800000000000000
+      internalID: 2314639230880814773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_57
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 156
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f1b5442aee8d670800000000000000
+      internalID: 8563857072143933296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_58
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 156
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2970985dbb5215b0800000000000000
+      internalID: -5399152134470993620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_59
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 155
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc8b3756860ec690800000000000000
+      internalID: -7580113948759061296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_60
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 155
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e17e7a4025beb10800000000000000
+      internalID: 2011791838501346856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_61
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 126
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721d5e9df9ae42e30800000000000000
+      internalID: 4477961901789532455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_62
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 127
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee787fc9e92500c10800000000000000
+      internalID: 2017703474253760494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_63
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 126
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f5d4662bd6e3350800000000000000
+      internalID: 5998352366692032388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_64
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 126
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7089e117b191f420800000000000000
+      internalID: 2662069070218231931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_65
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 126
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4172a0c5d3e01f400800000000000000
+      internalID: 356081502238942996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_66
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 126
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5695780af78e533c0800000000000000
+      internalID: -4380339427696223899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_67
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 126
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b172678d565c4d0d0800000000000000
+      internalID: -3398874777543891173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_68
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 126
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ba535547296a250800000000000000
+      internalID: 5955608585587501846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_69
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 126
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a267d2a14748910800000000000000
+      internalID: 1838722203654695544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_70
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 126
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ed23eb9ef67e3e0800000000000000
+      internalID: -2024526457770680759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_71
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 126
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2ee50eca03713a0800000000000000
+      internalID: -6694828802006129970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_72
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 103
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb65d3c2a4886bb90800000000000000
+      internalID: -7226438699918207297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246232f42054e2af0800000000000000
+      internalID: -419321839078922686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_74
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 92
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6d77cc1a383d2d0800000000000000
+      internalID: -3255113374715357527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_75
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 90
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f0a9697d22ffc40800000000000000
+      internalID: 5548191575283732247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_76
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 92
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4cf2c28536c5aa0800000000000000
+      internalID: -6170948159054822170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_77
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 96
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b17fceef914d6a0800000000000000
+      internalID: -6425482185662850233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_78
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 96
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9b51a0faf33a5c0800000000000000
+      internalID: -4205447606012888602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_79
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 95
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208c6b299beb1c030800000000000000
+      internalID: 3513298888565377026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_80
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 97
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c080397609eb78830800000000000000
+      internalID: 4073433915402160140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_81
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 97
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fe030a21efd2e90800000000000000
+      internalID: -7048698485814530148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_82
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 92
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b324aec7af1aea4a0800000000000000
+      internalID: -6580143908332092869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_83
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 96
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7f24ec13556ede0800000000000000
+      internalID: -1304261369674926137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 42
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e227e387818a7b00800000000000000
+      internalID: 827115900609438434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_85
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 42
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b796f392883e75f60800000000000000
+      internalID: 8023131435130907003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_86
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 70
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a688b552a7d16c0800000000000000
+      internalID: -4171043379007165829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_87
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 67
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db569448a2528240800000000000000
+      internalID: 4792483836134317011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_88
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 66
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd859d4125341880800000000000000
+      internalID: -8641223367865299465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_89
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 62
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bca1a70184bb52d0800000000000000
+      internalID: -3288836636592198479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_90
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 66
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5139b27c2ce9849e0800000000000000
+      internalID: -1636883905146809579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_91
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 64
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc9ffb439bc22490800000000000000
+      internalID: -7772426173392380718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_92
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 64
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3593ce69d60dba90800000000000000
+      internalID: -7296668290334354115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_93
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 44
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a70e5004c39e640800000000000000
+      internalID: 5109681497902709356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_94
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 44
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5aa87ac63061b90800000000000000
+      internalID: -7271620783140854348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_95
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 40
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556e5b6fbc0530240800000000000000
+      internalID: 4756734468381075029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_96
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 44
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e3b8249b685a190800000000000000
+      internalID: -7951801436809249195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_97
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 43
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cec546ef24492f60800000000000000
+      internalID: 8010008384772624072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_98
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 33
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca9ba11c327182a0800000000000000
+      internalID: -6736977965249488181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_99
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 36
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cff18d71ca6adc0800000000000000
+      internalID: -3628023231390155640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_100
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 30
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6c960fba60c4650800000000000000
+      internalID: 6218352521034450679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_101
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 33
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957e4e3274a28a850800000000000000
+      internalID: 6388402556458297177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_102
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 6
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c9644c8b69a3790800000000000000
+      internalID: -7549556105022104460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_103
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 6
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e386a691d76f800800000000000000
+      internalID: 645841144687115903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_104
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 7
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f1bcaad7e28c450800000000000000
+      internalID: 6109184011799306015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_105
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 6
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13798f86e966d270800000000000000
+      internalID: 8274917804311409434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_106
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 7
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd90047f77f6c430800000000000000
+      internalID: 3802999062140067257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_107
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 3
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e487d671ba9c22e0800000000000000
+      internalID: -2149172835168844569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_108
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 6
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1f23a86ad3cfa80800000000000000
+      internalID: -8431796616851951172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_109
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526005bf4256ecd50800000000000000
+      internalID: 6759451300239246885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_110
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8e3d2d5dc9b25a0800000000000000
+      internalID: -6544965191273813840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_111
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5641a1d728409290800000000000000
+      internalID: -7885723611667806630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_112
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 6
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c319c68576250e0800000000000000
+      internalID: -2282648431647179692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_113
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 5
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eeb6317c01601c30800000000000000
+      internalID: 4328065947969961704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngjoy.com_snes-link-to-the-past-link-sprites-hd_3006972_114
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 2
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56958986cf277def0800000000000000
+      internalID: -83471639670924955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
