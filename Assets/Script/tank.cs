@@ -37,8 +37,7 @@ public class tank : baseCharacter
     {
         if (!isBusy && isSpecial1Available)
         {
-            isBusy = true;
-            isSpecial1Available = false;
+            base.special1();
             DEF *= DEFMutliplier;
             speed = DEFSpeed;
 

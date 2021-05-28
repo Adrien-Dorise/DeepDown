@@ -9,6 +9,7 @@ public class wizard : baseCharacter
     //Spé2 is resurection
 
     //Wizard class
+
     [SerializeField] private float spellMovingSpeed;
     [SerializeField] private bool stillAttacking;
     private int HPhealed;
@@ -31,6 +32,7 @@ public class wizard : baseCharacter
 
         //Status
         MAXHP = HP = 100;
+        MAXMP = MP = 1000;
         baseATK = ATK = 10;
         baseDEF = DEF = 1;
 
@@ -38,17 +40,25 @@ public class wizard : baseCharacter
         baseSpeed = speed;
         spellMovingSpeed = 0.35f;
         stillAttacking = false;
-        healingRatio = 0.001f; // calculation is HPmax * healing ratio
+        healingRatio = 0.03f; // calculation is HPmax * healing ratio
         healingDelay = 0.5f; //Time between healing, in second
         HPrez = 0.5f; //Heal half of HP when rez
+        MPCostAtk = 125;
+        MPCostSpe1 = 100;
+        MPCostSpe2 = 750;
+        MPRegen = 10; //Regen per MPregenDelay
+        MPRegenDelay = 1; //delay between MP recovering in second;
+        isMPRetored = false;
+
     }
 
 
     protected override void attack()
     {
-        if (!isBusy)
+        if (!isBusy && MP >= MPCostAtk)
         {
-            isBusy = true;
+            base.attack();
+            MP -= MPCostAtk;
             speed = spellMovingSpeed;
             stillAttacking = true;
             StartCoroutine(stillAtk());
@@ -91,11 +101,11 @@ public class wizard : baseCharacter
 
     protected override void special1()
     {
-        if (!isBusy && isSpecial1Available)
+        if (!isBusy && isSpecial1Available && MP >= MPCostSpe1)
         {
-            isBusy = true;
+            base.special1();
+            MP -= MPCostSpe1;
             stillAttacking = true;
-            isSpecial1Available = false;
             speed = spellMovingSpeed;
             StartCoroutine(stillSpecial1());
 
@@ -119,8 +129,11 @@ public class wizard : baseCharacter
                     switch (allyColl[i].tag)
                     {
                         case "Player":
-                            HPhealed = (int)(allyColl[i].GetComponentInParent<baseCharacter>().getMaxHP() / healingRatio);
-                            allyColl[i].GetComponentInParent<baseCharacter>().getHeal(HPhealed);
+                            if (!allyColl[i].GetComponentInParent<baseCharacter>().isKO)
+                            {
+                                HPhealed = (int)(allyColl[i].GetComponentInParent<baseCharacter>().getMaxHP() * healingRatio);
+                                allyColl[i].GetComponentInParent<baseCharacter>().getHeal(HPhealed);
+                            }  
                             break;
                     }
                 }
@@ -143,12 +156,12 @@ public class wizard : baseCharacter
 
     protected override void special2()
     {
-        if (!isBusy && isSpecial1Available)
-        {    
-            isBusy = true;
+        if (!isBusy && isSpecial2Available && MP >= MPCostSpe2)
+        {
+            base.special2();
+            MP -= MPCostSpe2;
             speed = spellMovingSpeed;
             stillAttacking = true;
-            isSpecial2Available = false;
             StartCoroutine(stillSpecial2());
 
         }
@@ -186,12 +199,14 @@ public class wizard : baseCharacter
     }
 
 
+
     protected override void endSpecial2()
     {
         speed = baseSpeed;
         stillAttacking = false;
         base.endSpecial2();
     }
+
 
 
 }

@@ -36,8 +36,7 @@ public class DPS : baseCharacter
     {
         if (!isBusy && isSpecial1Available)
         {
-            isBusy = true;
-            isSpecial1Available = false;
+            base.special1();
             //We use a circle to check collision around player
             enemyColl = Physics2D.OverlapCircleAll(this.transform.position, special1Range, attackLayerMask);
             if (enemyColl.Length > 0)

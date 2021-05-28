@@ -6,15 +6,20 @@ using UnityEngine.UI;
 public class UI : MonoBehaviour
 {
     [SerializeField] private baseCharacter script;
-    private Text HPdisplay;
-    private int HP, MAXHP;
+    private Text HPdisplay,MPdisplay;
+    private int HP, MAXHP, MP, MAXMP;
+    [SerializeField] private bool showMP;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        HPdisplay = GetComponentInChildren<Text>();
-        
+        HPdisplay = this.transform.GetChild(0).gameObject.GetComponent<Text>();
+        MPdisplay = this.transform.GetChild(1).gameObject.GetComponent<Text>();
+        if(!showMP)
+        {
+            MPdisplay.enabled = false;
+        }
     }
 
     // Update is called once per frame
@@ -23,5 +28,11 @@ public class UI : MonoBehaviour
         MAXHP = script.getMaxHP();
         HP = script.getHP();
         HPdisplay.text = HP.ToString() + " / " + MAXHP.ToString(); 
+        if(showMP)
+        {
+            MAXMP = script.getMaxMP();
+            MP = script.getMP();
+            MPdisplay.text = MP.ToString() + " / " + MAXMP.ToString();
+        }
     }
 }

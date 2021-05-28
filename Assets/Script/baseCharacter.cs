@@ -33,6 +33,11 @@ public class baseCharacter : MonoBehaviour
     [SerializeField] protected bool isFire1Pressed, isFire2Pressed, isFire3Pressed, isBusy, isSpecial1Available, isSpecial2Available;
     [SerializeField] protected float atkRange, special1Range, special2Range;
     [SerializeField] protected int atkDelay, special1Delay, special2Delay;
+    
+    //MP
+    [SerializeField] protected int MPCostAtk, MPCostSpe1, MPCostSpe2, MPRegen;
+    [SerializeField] protected float MPRegenDelay;
+    protected bool isMPRetored;
 
 
     //Hit
@@ -41,7 +46,7 @@ public class baseCharacter : MonoBehaviour
 
     //Status
     [SerializeField] public bool isKO, isHealing;
-    [SerializeField] protected int HP, MAXHP, ATK, DEF;
+    [SerializeField] protected int HP, MAXHP, MP, MAXMP, ATK, DEF, MAXDEF;
     protected int baseATK, baseDEF;
 
 
@@ -80,10 +85,18 @@ public class baseCharacter : MonoBehaviour
         //Status
         isKO = isHealing = false;
         baseATK = ATK = 5;
-        HP = 100;
-        MAXHP = HP;
+        MAXHP = HP = 100;
+        MAXMP = MP = 0;
         baseDEF = DEF = 2;
-    }
+        MAXDEF = 80; //Maximum percentage for damage reducing
+        //MP
+        MPCostAtk = 0;
+        MPCostSpe1 = 0;
+        MPCostSpe2 = 0;
+        MPRegen = 0; //Regen per MPregenDelay
+        MPRegenDelay = 0; //delay between MP recovering in second;
+        isMPRetored = false;
+}
 
     private void setBoolDefault()
     {
@@ -153,6 +166,8 @@ public class baseCharacter : MonoBehaviour
 
     protected virtual void special1()
     {
+        isBusy = true;
+        isSpecial1Available = false;
         //To override in herited script
     }
 
@@ -175,6 +190,8 @@ public class baseCharacter : MonoBehaviour
 
     protected virtual void special2()
     {
+        isBusy = true;
+        isSpecial2Available = false;
         //To override in herited script
     }
 
@@ -203,11 +220,13 @@ public class baseCharacter : MonoBehaviour
             isInvincible = true;
             HP -= (int)(damage * (1f - (float)DEF / 100f));
 
-            StartCoroutine(hitRoutine());
-            //anim.SetTrigger("SetHurt");
-            Vector2 direction = (new Vector2(this.transform.position.x, this.transform.position.y) - hitPosition).normalized;
-            rigidBody.AddForce(direction * ejectionForce);
-
+            if(HP >=0) //If character not dead from hit, we proceed with invulnerability frame and push
+            {
+                StartCoroutine(hitRoutine());
+                //anim.SetTrigger("SetHurt");
+                Vector2 direction = (new Vector2(this.transform.position.x, this.transform.position.y) - hitPosition).normalized;
+                rigidBody.AddForce(direction * ejectionForce);
+            }
 
         }
     }
@@ -230,18 +249,30 @@ public class baseCharacter : MonoBehaviour
     {
         isKO = true;
         isInputEnable = false;
+        this.GetComponent<BoxCollider2D>().enabled = false;
         anim.SetTrigger("SetKO");
     }
 
-    public int getMaxHP()
+
+    private void regenMP()
     {
-        return MAXHP;
+
+        if (MP < MAXMP && !isMPRetored)
+        {
+            isMPRetored = true;
+            MP += MPRegen;
+            StartCoroutine(MPDelay());
+
+        }
+
     }
 
-    public int getHP()
+    private IEnumerator MPDelay()
     {
-        return HP;
+        yield return new WaitForSeconds(MPRegenDelay);
+        isMPRetored = false;
     }
+
 
     public void getHeal(int HPrecovered)
     {
@@ -250,10 +281,7 @@ public class baseCharacter : MonoBehaviour
         if (HP < MAXHP)
         {
             HP += HPrecovered;
-            if (HP > MAXHP)
-            {
-                HP = MAXHP;
-            }
+
         }
         isHealing = false;
     }
@@ -262,8 +290,8 @@ public class baseCharacter : MonoBehaviour
 
     public void resurection(int HPrestored)
     {
-        
-        anim.SetTrigger("SetRez");
+
+        anim.SetBool("SetRez", true);
         HP = HPrestored;
 
 
@@ -278,9 +306,66 @@ public class baseCharacter : MonoBehaviour
         speed = baseSpeed;
         DEF = baseDEF;
         ATK = baseATK;
+        this.GetComponent<BoxCollider2D>().enabled = true;
+        isFire1Pressed = isFire2Pressed = isFire3Pressed = false;
         isSpecial1Available = isSpecial2Available = true;
         isInvincible = false;
+        anim.SetBool("SetRez", false);
         isInputEnable = true;
+    }
+
+
+    //Uitlitaries
+    public int getMaxHP()
+    {
+        return MAXHP;
+    }
+
+    public int getHP()
+    {
+        return HP;
+    }
+
+    public int getMaxMP()
+    {
+        return MAXMP;
+    }
+
+    public int getMP()
+    {
+        return MP;
+    }
+
+    private void checkStats()
+    {
+        if (HP > MAXHP)
+        {
+            HP = MAXHP;
+        }
+
+        if (HP < 0)
+        {
+            HP = 0;
+        }
+        
+        if(MP > MAXMP)
+        {
+            MP = MAXMP;
+        }
+        if(MP < 0)
+        {
+            MP = 0;
+        }
+
+        if (DEF >= MAXDEF)
+        {
+            DEF = MAXDEF;
+        }
+        if (DEF < 0)
+        {
+            DEF = 0;
+        }
+
     }
 
     protected void debugCircleRay(float range, Color color)
@@ -299,12 +384,10 @@ public class baseCharacter : MonoBehaviour
 
     protected virtual void Update()
     {
+        //We check max/min stats
         
 
-        if(DEF >=80)
-        {
-            DEF = 80;
-        }
+        checkStats();
 
         if(!isAgent)
         {
@@ -327,7 +410,10 @@ public class baseCharacter : MonoBehaviour
     protected virtual void FixedUpdate()
     {
 
-        if(isBusy)
+
+        regenMP();
+
+        if (isBusy)
         {
             debugCircleRay(atkRange, Color.red);
         }
@@ -342,24 +428,25 @@ public class baseCharacter : MonoBehaviour
             move();
 
             //Attack
-            if (isFire1Pressed && !isBusy)
+            if (isFire1Pressed && !isBusy && MP >= MPCostAtk)
             {
                 anim.SetTrigger("SetAttack");
                 
             }
             
             
-            if (isFire2Pressed && !isBusy && isSpecial1Available)
+            if (isFire2Pressed && !isBusy && isSpecial1Available && MP >= MPCostSpe1)
             {
                 anim.SetTrigger("SetSpecial1");
                 
             }
 
-            if (isFire3Pressed && !isBusy && isSpecial2Available)
+            if (isFire3Pressed && !isBusy && isSpecial2Available && MP >= MPCostSpe2)
             {
                 anim.SetTrigger("SetSpecial2");
 
             }
+            
 
             isFire1Pressed = false;
             isFire2Pressed = false;
