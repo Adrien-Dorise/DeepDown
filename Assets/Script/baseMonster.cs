@@ -33,7 +33,7 @@ public class baseMonster : MonoBehaviour
     [SerializeField] private float ejectionForce, invincibilityDelay, inviFrameSpeed;
 
     //Status
-    [SerializeField] bool isDead;
+    public bool isDead;
     [SerializeField] private int HP, ATK, DEF;
 
     //AI
@@ -253,7 +253,13 @@ public class baseMonster : MonoBehaviour
 
     private void death()
     {
+        isDead = true;
         Destroy(this.transform.parent.gameObject);
+    }
+
+    public int getHP()
+    {
+        return HP;
     }
 
 

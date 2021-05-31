@@ -8,7 +8,7 @@ public class baseCharacter : MonoBehaviour
 {
 
     //Machine Learning
-    protected bool isAgent;
+    public bool isAgent;
 
 
     //Others
@@ -19,8 +19,13 @@ public class baseCharacter : MonoBehaviour
     private Rigidbody2D rigidBody;
     private Animator anim;
 
-    //Movements
+    //Inputs
     [SerializeField] private bool isInputEnable;
+    public float inputX, inputY;
+    public bool isFire1Pressed, isFire2Pressed, isFire3Pressed;
+
+
+    //Movements
     [SerializeField] protected float speed;
     protected float baseSpeed;
     [SerializeField] protected Vector2 lookingDir;
@@ -30,7 +35,7 @@ public class baseCharacter : MonoBehaviour
     protected Collider2D[] enemyColl, allyColl;
     private RaycastHit2D hitForward;
     Vector2 rayDir;
-    [SerializeField] protected bool isFire1Pressed, isFire2Pressed, isFire3Pressed, isBusy, isSpecial1Available, isSpecial2Available;
+    [SerializeField] protected bool isBusy, isSpecial1Available, isSpecial2Available;
     [SerializeField] protected float atkRange, special1Range, special2Range;
     [SerializeField] protected int atkDelay, special1Delay, special2Delay;
     
@@ -59,7 +64,10 @@ public class baseCharacter : MonoBehaviour
         //Components
         rigidBody = this.GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        
+
+        //Inputs
+        inputX = inputY = 0f;
+        isFire1Pressed = isFire2Pressed = isFire3Pressed = false;
 
         //Movement
         isInputEnable = true;
@@ -67,7 +75,6 @@ public class baseCharacter : MonoBehaviour
 
         //Attacks
         isBusy = false;
-        isFire1Pressed = isFire2Pressed = false;
         isSpecial1Available = isSpecial2Available = true;
         atkRange = 0.65f;
         atkDelay = 1; //Delay in s (unused because processed in animator)
@@ -107,27 +114,25 @@ public class baseCharacter : MonoBehaviour
 
     protected virtual void move()
     {
-        if(!isAgent)
-        {
 
-        
-        if (Input.GetAxis("Horizontal") > 0)
+
+        if (inputX > 0)
         { this.transform.GetComponentInChildren<SpriteRenderer>().flipX = true; }
-        if (Input.GetAxis("Horizontal") < 0)
+        if (inputX < 0)
         { this.transform.GetComponentInChildren<SpriteRenderer>().flipX = false; }
 
-        this.transform.Translate(Vector2.up * speed * Time.fixedDeltaTime * Input.GetAxis("Vertical"));
-        this.transform.Translate(Vector2.right * speed * Time.fixedDeltaTime * Input.GetAxis("Horizontal"));
-        anim.SetFloat("Speed", Mathf.Abs(Input.GetAxis("Horizontal")) + Mathf.Abs(Input.GetAxis("Vertical")));
+        this.transform.Translate(Vector2.up * speed * Time.fixedDeltaTime * inputY);
+        this.transform.Translate(Vector2.right * speed * Time.fixedDeltaTime * inputX);
+        anim.SetFloat("Speed", Mathf.Abs(inputX) + Mathf.Abs(inputY));
 
 
-        //We update the looking direciton vector when one of the player is pressing a direction
-        if (Input.GetAxis("Vertical") + Input.GetAxis("Horizontal") != 0) 
-        { lookingDir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized; }
+        //We update the looking direction vector when one of the player is pressing a direction
+        if (inputX + inputY != 0) 
+        { lookingDir = new Vector2(inputX, inputY).normalized; }
        
         Debug.DrawRay(transform.position, lookingDir * 2f, Color.white);
 
-        }
+        
 
     }
 
@@ -382,15 +387,13 @@ public class baseCharacter : MonoBehaviour
         Debug.DrawRay(transform.position, (-lookingDir + Vector2.down).normalized * range, color);
     }
 
-    protected virtual void Update()
+    private void getInput()
     {
-        //We check max/min stats
-        
 
-        checkStats();
-
-        if(!isAgent)
+        if (!isAgent)
         {
+            inputX = Input.GetAxis("Horizontal");
+            inputY = Input.GetAxis("Vertical");
             if (Input.GetButtonDown("Fire1"))
             {
                 isFire1Pressed = true;
@@ -404,8 +407,19 @@ public class baseCharacter : MonoBehaviour
                 isFire3Pressed = true;
             }
         }
-        
+
     }
+
+
+    protected virtual void Update()
+    {
+        //We check max/min stats
+        
+
+        checkStats();
+        getInput();
+
+   }
 
     protected virtual void FixedUpdate()
     {
